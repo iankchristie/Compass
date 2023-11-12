@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		41364EF72AFD97700081E576 /* CompassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41364EF62AFD97700081E576 /* CompassViewModel.swift */; };
-		41364EFB2AFEB6860081E576 /* CompassViewModelPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41364EFA2AFEB6860081E576 /* CompassViewModelPublisher.swift */; };
 		41364EFD2AFEBB990081E576 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41364EFC2AFEBB990081E576 /* CompassView.swift */; };
 		41364F032AFF35380081E576 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41364F022AFF35380081E576 /* LocationService.swift */; };
 		4184273A2ACBCE8C001F3546 /* CompassReceiverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418427392ACBCE8C001F3546 /* CompassReceiverApp.swift */; };
@@ -19,11 +18,11 @@
 		4184274C2ACDD7E2001F3546 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184274B2ACDD7E2001F3546 /* LocationManager.swift */; };
 		4184274E2ACDDB72001F3546 /* PermissionRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184274D2ACDDB72001F3546 /* PermissionRequestView.swift */; };
 		418427502ACDE5AD001F3546 /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184274F2ACDE5AD001F3546 /* LocationUtils.swift */; };
+		41CC746F2B007564005A491E /* CompassViewModelPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC746E2B007564005A491E /* CompassViewModelPublisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41364EF62AFD97700081E576 /* CompassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewModel.swift; sourceTree = "<group>"; };
-		41364EFA2AFEB6860081E576 /* CompassViewModelPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CompassViewModelPublisher.swift; path = ../CompassViewModelPublisher.swift; sourceTree = "<group>"; };
 		41364EFC2AFEBB990081E576 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
 		41364F022AFF35380081E576 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		418427362ACBCE8C001F3546 /* Ian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ian.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +34,7 @@
 		4184274B2ACDD7E2001F3546 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		4184274D2ACDDB72001F3546 /* PermissionRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestView.swift; sourceTree = "<group>"; };
 		4184274F2ACDE5AD001F3546 /* LocationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUtils.swift; sourceTree = "<group>"; };
+		41CC746E2B007564005A491E /* CompassViewModelPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewModelPublisher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 				4184274B2ACDD7E2001F3546 /* LocationManager.swift */,
 				4184274F2ACDE5AD001F3546 /* LocationUtils.swift */,
 				41364EF62AFD97700081E576 /* CompassViewModel.swift */,
-				41364EFA2AFEB6860081E576 /* CompassViewModelPublisher.swift */,
+				41CC746E2B007564005A491E /* CompassViewModelPublisher.swift */,
 			);
 			path = CompassReceiver;
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41364F032AFF35380081E576 /* LocationService.swift in Sources */,
+				41CC746F2B007564005A491E /* CompassViewModelPublisher.swift in Sources */,
 				41364EF72AFD97700081E576 /* CompassViewModel.swift in Sources */,
-				41364EFB2AFEB6860081E576 /* CompassViewModelPublisher.swift in Sources */,
 				4184273C2ACBCE8C001F3546 /* ContentView.swift in Sources */,
 				418427502ACDE5AD001F3546 /* LocationUtils.swift in Sources */,
 				4184274E2ACDDB72001F3546 /* PermissionRequestView.swift in Sources */,
